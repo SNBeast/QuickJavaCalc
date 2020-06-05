@@ -79,27 +79,27 @@ public class Main implements ActionListener {
 		
 		upEastButtons.setLayout(new BorderLayout());
 		upEastButtons.add(plus, BorderLayout.NORTH);
-		upEastButtons.add(minus, BorderLayout.SOUTH);
+		upEastButtons.add(minus, BorderLayout.CENTER);
 		
 		downEastButtons.setLayout(new BorderLayout());
 		downEastButtons.add(times, BorderLayout.NORTH);
-		downEastButtons.add(divided, BorderLayout.SOUTH);
+		downEastButtons.add(divided, BorderLayout.CENTER);
 		
 		topButtons.setLayout(new BorderLayout());
 		topButtons.add(upUpButtons, BorderLayout.NORTH);
-		topButtons.add(upMiddleButtons, BorderLayout.SOUTH);
+		topButtons.add(upMiddleButtons, BorderLayout.CENTER);
 		
 		bottomButtons.setLayout(new BorderLayout());
 		bottomButtons.add(downMiddleButtons, BorderLayout.NORTH);
-		bottomButtons.add(downDownButtons, BorderLayout.SOUTH);
+		bottomButtons.add(downDownButtons, BorderLayout.CENTER);
 		
 		eastButtons.setLayout(new BorderLayout());
 		eastButtons.add(upEastButtons, BorderLayout.NORTH);
-		eastButtons.add(downEastButtons, BorderLayout.SOUTH);
+		eastButtons.add(downEastButtons, BorderLayout.CENTER);
 
 		numberButtons.setLayout(new BorderLayout());
 		numberButtons.add(topButtons, BorderLayout.NORTH);
-		numberButtons.add(bottomButtons, BorderLayout.SOUTH);
+		numberButtons.add(bottomButtons, BorderLayout.CENTER);
 		
 		buttonContainer.setLayout(new BorderLayout());
 		buttonContainer.add(numberButtons, BorderLayout.CENTER);
